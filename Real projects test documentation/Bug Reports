@@ -1,0 +1,69 @@
+1. Title - მთავარ გვერდზე მითითებულ’’კონტაქტზე” დაჭერით არ ხდება საკონტაქტო ინფორმაციაზე გადასვლა (webcanvasstudio.com)
+Severity – Major
+Priority – High
+Reproducibility rate – 100%
+Environment – Production. Device: Dell Latitude 7390 2-in-1. Operating system: Windows 11 pro, 10.0.26100 Build 26100. Browser: Google Chrome Version 139.0.7258.138 (Official Build) (64-bit)
+Precondition – N/A
+Steps to reproduce – 
+1. გახსენით ვებ-საიტი: www.test.com.
+3. დააჭირეთ ,,კონტაქტი“-ს ღილაკს.
+Actual Result – იხსნება “ჩვენს შესახებ” გვერდი.
+Expected Result – უნდა გაიხსნას ,,დაგვიკავშირდით” გვერდი.
+
+2. Title - ავტორიზაციის შემდეგ ვერ ხერხდება სისტემიდან გამოსვლა
+Severity – Critical
+Priority – High
+Reproducibility rate – 100%
+Environment – Production. Device: Dell Latitude 7390 2-in-1. Operating system: Windows 11 pro, 10.0.26100 Build 26100. Browser: Google Chrome Version 139.0.7258.138 (Official Build) (64-bit)
+Precondition – მომხმარებელი ავტორიზებულია სისტემაში.
+Steps to reproduce – 
+1. გახსენით ვებ-საიტი: www.test.com;
+2. დააჭირეთ ვებ-გვერდის ზედა მარჯვენა კუთხეში პირადი გვერდის აიქონს;
+3. დააჭირეთ ღილაკს “გამოსვლა”. 
+Actual Result – მომხმარებელი რჩება ავტორიზებული სისტემაში.
+Expected Result – უნდა ხდებოდეს მომხმარებლის სისტემიდან გამოსვლა - ე.წ log out.
+
+3. Title - სისტემაში ავტორიზაციის შემდეგ არ ხდება პირად გევრდზე გადასვლა.
+Severity – Critical
+Priority – High
+Reproducibility rate – 100%
+Environment – Production. Device: Dell Latitude 7390 2-in-1. Operating system: Windows 11 pro, 10.0.26100 Build 26100. Browser: Google Chrome Version 139.0.7258.138 (Official Build) (64-bit)
+Precondition – მომხმარებელი ავტორიზებულია სისტემაში.
+Steps to reproduce – 
+1. გახსენით ვებ-საიტი: www.test.com;
+2. ვებ-გვერდის ზედა მარჯვენა კუთხეში ვაჭერთ ხატულას ადამიანის გამოსახულებით; 
+3. ვაჭერთ ღილაკს, რომელსაც აწერია მომხმარებლის სახელი.
+Actual Result – ვებ-გვერდზე არ იხსნება მომხმარებლის პირადი გვერდი, ღილაკზე დაჭერით არ ხდება სისტემის რეაგირება.
+Expected Result – ვებ-საიტზე უნდა იხსნებოდეს მომხმარებლის პირადი გვერდი.
+
+4. Title – „ჩემი სივრცის“ გვერდზე არსებული ინფორმაცია არ არის მოცემული არჩეულ ენაზე. 
+Severity – Medium
+Priority – Normal
+Reproducibility rate – 100%
+Environment – Production. 
+1.	Device: Dell Latitude 7390 2-in-1. Operating system: Windows 11 pro, 10.0.26100 Build 26100. Browser: Google Chrome Version 139.0.7258.138 (Official Build) (64-bit)
+2.	Device: iPad Air 11-inch (M2). Operating system: iPadOS 18.6. Browser: Google Chrome, Version 139.0.7258.76
+Precondition – მომხმარებელი ავტორიზებულია სისტემაში და სისტემის მუშაობის ენად არჩეულია ქართული.
+Steps to reproduce – 
+1.	დააჭირეთ მარცხენა მხარეს ჩამონათვალის გახსნის ღილაკს;
+2.	გახსენით გვერდი ,,ჩემი სივრცე”;
+3.	დააჭირეთ ღილაკ “Teacher”-ს
+Actual Result – გახსნილ გვერდზე ინფორმაცია არის სრულად ინგლისურ ენაზე.
+Expected Result – აღნიშნულ გვერდზე ინფორმაცია უნდა იყოს სრულად ქართულ ენაზე.
+
+5. Title – “ზომების ცხრილში” “საერთაშორისოს” არჩევისას არ ჩანს დახურვის ღილაკი.
+Severity – Minor
+Priority – Low
+Reproducibility rate – 100%
+Environment – Production 
+1.	Device: Dell Latitude 7390 2-in-1. Operating system: Windows 11 pro, 10.0.26100 Build 26100. Browser: Google Chrome Version 139.0.7258.138 (Official Build) (64-bit)
+Precondition – N/A
+Steps to reproduce – 
+1. გახსენით ვებ-საიტი www.test.ge;
+2. დააჭირეთ ღილაკს ,,კატეგორიები”;
+3.  გახსენით კატეგორია “ქალის მაისურები”;
+4. აირჩიეთ სასურველი პროდუქტი;
+5.  დააჭირეთ ღილაკს - „ზომების ცხრილი“;
+6.  აირჩიეთ გრაფა - „საერთაშორისო“;
+Actual Result – გრაფა ,,საერთაშორისო”-ს არჩევისას გვერდზე არ ჩნდება ,,დახურვის” ღილაკი და გვერდიდან გასვლა შეიძლება მხოლოდ ჩარჩოს გარეთ კურსორის დაჭერით.
+Expected Result – გრაფის მარჯვენა ქვედა კუთხეში უნდა გამოჩნდეს ღილაკი ,,დახურვა“, რომლის საშუალებითაც უნდა შეიძლებოდეს გვერდიდან გასვლა.
