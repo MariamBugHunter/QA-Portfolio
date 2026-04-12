@@ -3,7 +3,6 @@
 1. Title:  მომხმარებლის სურვილების სიაში პროდუქტის დამატების შემოწმება 
 Severity: Normal
 Priority: Medium
-Behavior: Positive
 Type: Functional
 Description: “სურვილების სიის” ფუნქციონალის შემოწმება. 
 Pre-conditions: მომხმარებელი ავტორიზებულია სისტემაში.
@@ -26,7 +25,6 @@ Expected Result:
 Title: :  მომხმარებლის კალათაში პროდუქტის დამატების შემოწმება 
 Severity: Normal
 Priority: Medium
-Behavior: Positive
 Type: Functional
 Description: კალათაში ნივთის დამატების ფუნქციონალის შემოწმება
 Pre-conditions: მომხმარებელი ავტორიზებულია სისტემაში.
@@ -48,7 +46,6 @@ Expected Result:
 Title: “ფილტრის” ღილაკის საშუალებით პროდუქცის სორტირება
 Severity: Normal
 Priority: Medium
-Behavior: Positive
 Type: Functional
 Description: “ფილტრის” ღილაკის ფუნქციონალის შემოწმება.
 Pre-conditions: მომხმარებელი არ არის ავტორიზებული სისტემაში.
@@ -73,7 +70,6 @@ Expected Result:
 Title: ენის ცვლილება ვებ-გვერდზე 
 Severity: Major
 Priority: High
-Behavior: Positive
 Type: Functional
 Description: ვებ-გვერდის ენის ცვლილების ფუნქციონალის შემოწმება
 Pre-conditions: მომხმარებელი არ არის ავტორიზებული სისტემაში.
@@ -88,7 +84,6 @@ Expected Result: 1. იხსნება ვებ-გვერდი: www.test
 Title: “ახალი პაროლის” შექმნა არასწორი პაროლით
 Severity: Critical
 Priority: High
-Behavior: Positive
 Type: Security
 Description: პაროლის განახლების ფუნქციონალის შემოწმება იმ შემთხვევაში, როდესაც მიმდინარე პაროლად ვწერთ არასწორ პაროლს. 
 Pre-conditions: მომხმარებელი ავტორიზებულია სისტემაში.
@@ -111,6 +106,8 @@ Expected Result:
 
 6.
 Title: “სურვილების სიაში” ნივთის დამატება ავტორიაზაციამდე
+Severity: High
+Priority: High
 Description: “სურვილების სიის” ფუნქციონალის შემოწმება ავტორიზაციასთან ერთად.
 Pre-conditions: მომხმარებელი არ არის ავტორიზებული სისტემაში.
 Post-conditions: არჩევის და ავტორიზაციის შემდეგ არჩეული ნივთი დამატებულია “სურვილების სიაში”
